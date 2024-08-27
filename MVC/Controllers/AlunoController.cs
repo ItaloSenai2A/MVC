@@ -23,7 +23,7 @@ namespace MVC.Controllers
             listaAlunos.Add(a5);
 
             // Enviando a lista de Alunos por parametro na View Index
-            return View();
+            return View(listaAlunos);
 
         }
         public IActionResult Cadastrar()
